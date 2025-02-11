@@ -1,79 +1,60 @@
-let preguntas = [];
-let preguntaActual = 0;
+document.addEventListener("DOMContentLoaded", function () {
+    const contenedorPreguntas = document.getElementById("contenedor-preguntas");
+    const btnAnterior = document.getElementById("anterior");
+    const btnSiguiente = document.getElementById("siguiente");
+    const paginaInfo = document.getElementById("pagina-info");
 
-fetch('preguntas_con_imagenes.json')
-    .then(response => response.json())
-    .then(data => {
-        preguntas = data;
-        mostrarPregunta();
-    })
-    .catch(error => console.error('Error cargando JSON:', error));
+    let preguntas = [];
+    let paginaActual = 1;
+    const preguntasPorPagina = 50; // Ahora muestra 50 preguntas por página
 
-function mostrarPregunta() {
-    const contenedor = document.getElementById('contenedor-preguntas');
-    contenedor.innerHTML = '';
-    
-    if (preguntaActual >= preguntas.length) {
-        contenedor.innerHTML = "<h3>Examen completado</h3>";
-        return;
+    // Cargar el archivo JSON desde GitHub Pages
+    fetch("https://eesa14.github.io/dr0n3/preguntas_con_imagenes.json")
+        .then(response => response.json())
+        .then(data => {
+            preguntas = data;
+            mostrarPreguntas();
+        })
+        .catch(error => console.error("Error al cargar las preguntas:", error));
+
+    function mostrarPreguntas() {
+        contenedorPreguntas.innerHTML = "";
+        const inicio = (paginaActual - 1) * preguntasPorPagina;
+        const fin = inicio + preguntasPorPagina;
+        const preguntasPagina = preguntas.slice(inicio, fin);
+
+        preguntasPagina.forEach((pregunta, index) => {
+            const preguntaDiv = document.createElement("div");
+            preguntaDiv.classList.add("pregunta");
+            preguntaDiv.innerHTML = `<strong>${inicio + index + 1}.- ${pregunta.pregunta}</strong>`;
+
+            pregunta.opciones.forEach(opcion => {
+                const opcionDiv = document.createElement("div");
+                opcionDiv.classList.add("opcion");
+                opcionDiv.innerHTML = `<input type="checkbox" name="pregunta${inicio + index}" value="${opcion}"> ${opcion}`;
+                preguntaDiv.appendChild(opcionDiv);
+            });
+
+            contenedorPreguntas.appendChild(preguntaDiv);
+        });
+
+        paginaInfo.textContent = `Página ${paginaActual} de ${Math.ceil(preguntas.length / preguntasPorPagina)}`;
+
+        btnAnterior.disabled = paginaActual === 1;
+        btnSiguiente.disabled = paginaActual === Math.ceil(preguntas.length / preguntasPorPagina);
     }
-    
-    let pregunta = preguntas[preguntaActual];
-    let preguntaHTML = `<div class='pregunta'><h3>${pregunta.pregunta}</h3>`;
-    
-    pregunta.opciones.forEach((opcion, index) => {
-        preguntaHTML += `<div class='opcion' onclick='seleccionarRespuesta(this, ${index})'>${opcion}</div>`;
+
+    btnAnterior.addEventListener("click", () => {
+        if (paginaActual > 1) {
+            paginaActual--;
+            mostrarPreguntas();
+        }
     });
-    
-    preguntaHTML += `</div><button onclick='comprobarRespuesta()'>Comprobar</button><div id='resultado'></div>`;
-    contenedor.innerHTML = preguntaHTML;
-    document.getElementById('pagina-info').innerText = `Pregunta ${preguntaActual + 1} de ${preguntas.length}`;
-}
 
-function seleccionarRespuesta(elemento, index) {
-    let opciones = document.querySelectorAll('.opcion');
-    opciones.forEach(opcion => opcion.classList.remove('seleccionada', 'respuesta-correcta', 'respuesta-incorrecta'));
-    elemento.classList.add('seleccionada');
-    elemento.dataset.index = index;
-}
-
-function comprobarRespuesta() {
-    let seleccion = document.querySelector('.opcion.seleccionada');
-    if (!seleccion) {
-        alert('Por favor selecciona una respuesta.');
-        return;
-    }
-    
-    let indexSeleccionado = parseInt(seleccion.dataset.index);
-    let opcionSeleccionada = preguntas[preguntaActual].opciones[indexSeleccionado].trim().toLowerCase();
-    let respuestasCorrectas = preguntas[preguntaActual].respuestas_correctas.map(res => res.trim().toLowerCase());
-    
-    if (respuestasCorrectas.includes(opcionSeleccionada)) {
-        seleccion.classList.add('respuesta-correcta');
-        document.getElementById('resultado').innerHTML = "<span style='color:green; font-weight:bold;'>Correcto</span>";
-    } else {
-        seleccion.classList.add('respuesta-incorrecta');
-        document.getElementById('resultado').innerHTML = "<span style='color:red; font-weight:bold;'>Incorrecto</span>";
-    }
-}
-
-document.getElementById('anterior').addEventListener('click', () => {
-    if (preguntaActual > 0) {
-        preguntaActual--;
-        mostrarPregunta();
-    }
-    actualizarBotones();
+    btnSiguiente.addEventListener("click", () => {
+        if (paginaActual < Math.ceil(preguntas.length / preguntasPorPagina)) {
+            paginaActual++;
+            mostrarPreguntas();
+        }
+    });
 });
-
-document.getElementById('siguiente').addEventListener('click', () => {
-    if (preguntaActual < preguntas.length - 1) {
-        preguntaActual++;
-        mostrarPregunta();
-    }
-    actualizarBotones();
-});
-
-function actualizarBotones() {
-    document.getElementById('anterior').disabled = preguntaActual === 0;
-    document.getElementById('siguiente').disabled = preguntaActual === preguntas.length - 1;
-}
