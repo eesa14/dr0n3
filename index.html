@@ -19,7 +19,7 @@
     <link rel="apple-touch-icon" href="apple-icon-180x180.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Drone App">
+    <meta name="apple-mobile-web-app-title" content="Aws-Prof">
     
     <style>
         body {
@@ -32,7 +32,8 @@
             align-items: center;
         }
         .container {
-            max-width: 600px;
+            max-width: 800px;
+            width: 100%;
             background: white;
             padding: 20px;
             border-radius: 12px;
@@ -45,18 +46,18 @@
             margin-bottom: 20px;
         }
         .pregunta {
-            padding: 15px;
+            padding: 20px;
             border-radius: 10px;
             background: #ecf0f1;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             text-align: left;
         }
         .opcion {
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            padding: 10px;
-            margin: 5px 0;
+            padding: 15px;
+            margin: 25px 0;
             border-radius: 8px;
             cursor: pointer;
             background: #dfe6e9;
@@ -86,12 +87,12 @@
             margin-top: 20px;
         }
         button {
-            padding: 12px;
-            margin: 5px;
+            padding: 15px;
+            margin: 10px;
             border: none;
             border-radius: 8px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: bold;
             transition: background 0.3s;
         }
@@ -104,6 +105,21 @@
         }
         #siguiente:hover {
             background: #2980b9;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                max-width: 90%;
+                padding: 15px;
+            }
+            .opcion {
+                padding: 12px;
+                margin: 22px 0;
+            }
+            button {
+                padding: 12px;
+                font-size: 16px;
+            }
         }
     </style>
 </head>
