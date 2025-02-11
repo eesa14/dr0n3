@@ -147,5 +147,38 @@
             <button id="siguiente">Siguiente</button>
         </div>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const contenedorPreguntas = document.getElementById("contenedor-preguntas");
+            
+            fetch("preguntas_con_imagenes.json")
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach((pregunta, index) => {
+                        const preguntaDiv = document.createElement("div");
+                        preguntaDiv.classList.add("pregunta");
+                        preguntaDiv.innerHTML = `<strong>${index + 1}.- ${pregunta.pregunta}</strong>`;
+                        
+                        pregunta.opciones.forEach(opcion => {
+                            const opcionDiv = document.createElement("div");
+                            opcionDiv.classList.add("opcion");
+                            opcionDiv.innerHTML = `<input type="checkbox" name="pregunta${index}" value="${opcion}"> ${opcion}`;
+                            preguntaDiv.appendChild(opcionDiv);
+                        });
+                        
+                        const botonComprobar = document.createElement("button");
+                        botonComprobar.classList.add("boton-comprobar");
+                        botonComprobar.textContent = "Comprobar";
+                        botonComprobar.addEventListener("click", function () {
+                            alert("Función de verificación aún por implementar");
+                        });
+                        
+                        preguntaDiv.appendChild(botonComprobar);
+                        contenedorPreguntas.appendChild(preguntaDiv);
+                    });
+                })
+                .catch(error => console.error("Error al cargar las preguntas:", error));
+        });
+    </script>
 </body>
 </html>
