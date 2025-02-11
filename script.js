@@ -1,60 +1,104 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const contenedorPreguntas = document.getElementById("contenedor-preguntas");
-    const btnAnterior = document.getElementById("anterior");
-    const btnSiguiente = document.getElementById("siguiente");
-    const paginaInfo = document.getElementById("pagina-info");
-
     let preguntas = [];
-    let paginaActual = 1;
-    const preguntasPorPagina = 50; // Ahora muestra 50 preguntas por página
+    let paginaActual = 0;
+    const preguntasPorPagina = 50;
 
-    // Cargar el archivo JSON desde GitHub Pages
-    fetch("https://eesa14.github.io/dr0n3/preguntas_con_imagenes.json")
-        .then(response => response.json())
-        .then(data => {
-            preguntas = data;
-            mostrarPreguntas();
-        })
-        .catch(error => console.error("Error al cargar las preguntas:", error));
+    async function cargarPreguntas() {
+        try {
+            const respuesta = await fetch("preguntas_con_imagenes.json");
+            const data = await respuesta.json();
+            preguntas = data.filter(p => p.pregunta && p.opciones.length > 0); // Filtrar preguntas vacías
+            mostrarPagina(paginaActual);
+        } catch (error) {
+            console.error("Error cargando las preguntas:", error);
+        }
+    }
 
-    function mostrarPreguntas() {
-        contenedorPreguntas.innerHTML = "";
-        const inicio = (paginaActual - 1) * preguntasPorPagina;
-        const fin = inicio + preguntasPorPagina;
+    function mostrarPagina(pagina) {
+        const contenedor = document.getElementById("contenedor-preguntas");
+        contenedor.innerHTML = "";
+
+        const inicio = pagina * preguntasPorPagina;
+        const fin = Math.min(inicio + preguntasPorPagina, preguntas.length);
         const preguntasPagina = preguntas.slice(inicio, fin);
 
         preguntasPagina.forEach((pregunta, index) => {
-            const preguntaDiv = document.createElement("div");
-            preguntaDiv.classList.add("pregunta");
-            preguntaDiv.innerHTML = `<strong>${inicio + index + 1}.- ${pregunta.pregunta}</strong>`;
+            if (!pregunta.pregunta || pregunta.opciones.length === 0) return; // Saltar preguntas vacías
 
-            pregunta.opciones.forEach(opcion => {
-                const opcionDiv = document.createElement("div");
-                opcionDiv.classList.add("opcion");
-                opcionDiv.innerHTML = `<input type="checkbox" name="pregunta${inicio + index}" value="${opcion}"> ${opcion}`;
-                preguntaDiv.appendChild(opcionDiv);
-            });
+            const divPregunta = document.createElement("div");
+            divPregunta.classList.add("pregunta");
 
-            contenedorPreguntas.appendChild(preguntaDiv);
+            const esMultiple = Array.isArray(pregunta.respuestas_correctas);
+            const opcionesHtml = pregunta.opciones.map((opcion, i) => `
+                <label>
+                    <input type="${esMultiple ? "checkbox" : "radio"}" name="pregunta-${inicio + index}" value="${opcion[0]}">
+                    ${opcion}
+                </label><br>
+            `).join("");
+
+            // Mostrar imágenes asociadas a las respuestas
+            let imagenesHtml = "";
+            if (pregunta.imagenes && pregunta.imagenes.length > 0) {
+                imagenesHtml = pregunta.imagenes.map(imagen => {
+                    return `
+                        <div class="imagen-respuesta">
+                            <label>${imagen.respuesta}</label>
+                            <img src="${imagen.url}" alt="Imagen de la respuesta ${imagen.respuesta}" style="max-width: 100%; height: auto; margin-top: 10px;">
+                        </div>
+                    `;
+                }).join("");
+            }
+
+            divPregunta.innerHTML = `
+                <p><strong>${pregunta.pregunta}</strong></p>
+                ${imagenesHtml}  <!-- Aquí se insertan las imágenes asociadas -->
+                ${opcionesHtml}
+                <button onclick="verificarRespuesta(${inicio + index})">Comprobar</button>
+                <p id="resultado-${inicio + index}" class="resultado"></p>
+            `;
+
+            contenedor.appendChild(divPregunta);
         });
 
-        paginaInfo.textContent = `Página ${paginaActual} de ${Math.ceil(preguntas.length / preguntasPorPagina)}`;
-
-        btnAnterior.disabled = paginaActual === 1;
-        btnSiguiente.disabled = paginaActual === Math.ceil(preguntas.length / preguntasPorPagina);
+        document.getElementById("pagina-info").innerText = `Página ${pagina + 1} de ${Math.ceil(preguntas.length / preguntasPorPagina)}`;
+        document.getElementById("anterior").disabled = pagina === 0;
+        document.getElementById("siguiente").disabled = fin >= preguntas.length;
     }
 
-    btnAnterior.addEventListener("click", () => {
-        if (paginaActual > 1) {
+    window.verificarRespuesta = function (preguntaIndex) {
+        const inputs = document.querySelectorAll(`input[name="pregunta-${preguntaIndex}"]:checked`);
+        const seleccionadas = Array.from(inputs).map(input => input.value);
+        const resultado = document.getElementById(`resultado-${preguntaIndex}`);
+
+        const pregunta = preguntas[preguntaIndex];
+        const correctas = Array.isArray(pregunta.respuestas_correctas) ? pregunta.respuestas_correctas : [pregunta.respuestas_correctas];
+
+        if (arraysIguales(seleccionadas, correctas)) {
+            resultado.innerText = "¡Correcto!";
+            resultado.className = "respuesta-correcta";
+        } else {
+            resultado.innerText = "Incorrecto.";
+            resultado.className = "respuesta-incorrecta";
+        }
+    };
+
+    function arraysIguales(arr1, arr2) {
+        return arr1.length === arr2.length && arr1.sort().join(",") === arr2.sort().join(",");
+    }
+
+    document.getElementById("anterior").addEventListener("click", () => {
+        if (paginaActual > 0) {
             paginaActual--;
-            mostrarPreguntas();
+            mostrarPagina(paginaActual);
         }
     });
 
-    btnSiguiente.addEventListener("click", () => {
-        if (paginaActual < Math.ceil(preguntas.length / preguntasPorPagina)) {
+    document.getElementById("siguiente").addEventListener("click", () => {
+        if ((paginaActual + 1) * preguntasPorPagina < preguntas.length) {
             paginaActual++;
-            mostrarPreguntas();
+            mostrarPagina(paginaActual);
         }
     });
+
+    cargarPreguntas();
 });
