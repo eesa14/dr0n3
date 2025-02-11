@@ -1,0 +1,1152 @@
+[
+    {
+        "pregunta": "1.-METAR DE VALDIVIA SCVD 211400Z 12003KT 0500 VCFG BKN 020 04/03 Q1026 NOSIG, LA TEMPERATURA DEL PUNTO DE ROCÍO ES:",
+        "opciones": [
+            "a. 5 GRADOS",
+            "b. 4 GRADOS",
+            "c. 3 GRADOS",
+            "d. NINGUNA DE LAS ANTERIORES"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "2.- SI AUMENTAMOS EL ÁNGULO DE ATAQUE EN UN PERFIL ALAR, LA SUSTENTACIÓN:",
+        "opciones": [
+            "a.  AUMENTARA.",
+            "b. DISMINUIRÁ.",
+            "c. SE MANTENDRÁ IGUAL.",
+            "d. NO CAMBIA."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "3.-OBSTRUCCIONES TALES COMO EDIFICIOS, ÁRBOLES Y TERRENOS ABRUPTOS, OBSTACULIZAN EL PASO DEL VIENTO Y LO CONVIERTEN EN UN FLUJO TURBULENTO CON COMPLEJOS REMOLINOS.",
+        "opciones": [
+            "a.  VERDADERO.",
+            "b. FALSO."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "4.- SEGÚN LA NORMA DAN 151 UN PILOTO A DISTANCIA DURANTE LA OPERACIÓN DE UN RPA NO PODRÁ:\n\nI. OPERAR MAS DE UN RPA EN FORMA SIMULTANEA.\n\nII. OPERAR BAJO LA INFLUENCIA DE LAS DROGAS O EL ALCOHOL.\n\nIII. OPERAR EN ÁREAS DONDE SE COMBATE UN INCENDIO POR MEDIO DE AERONAVES TRIPULADAS.\n\nIV. OPERAR A UNA DISTANCIA DE 1 KM DE LA PROLONGACIÓN DEL EJE DE PISTA, DESDE EL UMBRAL Y A UNA DISTANCIA DE 2 KM PARALELO DEL EJE DE LA PISTA.",
+        "opciones": [
+            "a. SOLO I, II Y III",
+            "b. SOLO II, III Y IV",
+            "c. SOLO I, III Y IV",
+            "d. I, II, III Y IV"
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "5.- DENTRO DE LOS REQUISITOS TÉCNICOS EXIGIDOS A UN RPA ESTÁ:",
+        "opciones": [
+            "a. LA AERONAVE DEBE HABER SIDO CONSTRUIDA DE UN KIT DE FÁBRICA Y CONTAR CON INSTRUCTIVOS TÉCNICOS DE OPERACIÓN.",
+            "b. CONTAR SOLO CON MOTORES ELÉCTRICO",
+            "c. PUEDE SER ARMADO DE PIEZAS Y PARTES DE DIFERENTES FABRICANTES Y NO CONTAR CON INSTRUCTIVOS TÉCNICOS DE OPERACIÓN.",
+            "d. SER DE ESTRUCTURA METÁLICA Y PARTES PLÁSTICAS"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "6.- SEGÚN LA SIGUIENTE INFORMACIÓN DEL AERÓDROMO RODELILLO: METAR SCRD 151700Z VRB01KT 0400 FG 0VC002 15/15 Q1015= EL FENÓMENO QUE REDUCE LA VISIBILIDAD Y EL TECHO SON RESPECTIVAMENTE:",
+        "opciones": [
+            "a. NIEBLA Y 200 PIES.",
+            "b. NIEBLA Y 600 METROS.",
+            "c. NEBLINA Y 20 METROS.",
+            "d. HUMO Y 200 PIES."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "7.- LA DEFINICIÓN: “PERSONA DESIGNADA POR EL EXPLOTADOR PARA OPERAR LOS CONTROLES DE VUELO DE UNA AERONAVE PILOTADA A DISTANCIA DURANTE EL TIEMPO DE VUELO. A FALTA DE PERSONA DESIGNADA, SE PRESUMIRÁ QUE EL PILOTO ES QUIEN DIRIGE LA OPERACIÓN DE VUELO”, CORRESPONDE AL CONCEPTO DE:",
+        "opciones": [
+            "a. PILOTO",
+            "b. EXPLORADOR",
+            "c. PILOTO A DISTANCIA",
+            "d. EXPLOTADOR A DISTANCIA"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "8.- SE DICE QUE EL AIRE ESTÁ SATURADO CUANDO:",
+        "opciones": [
+            "a. NO SE PUEDE COMPRIMIR MÁS.",
+            "b. NO ADMITE MAYOR CANTIDAD DE VAPOR DE AGUA.",
+            "c. SU TENSIÓN DE VAPOR ES MÍNIMA.",
+            "d. PRESENTA MÁXIMA DENSIDAD."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "9.- SEGÚN LA NORMA DAN 151, LA DURACIÓN DE LA CREDENCIAL DE OPERADOR DE RPA SERÁ DE:",
+        "opciones": [
+            "a. 12 MESES",
+            "b. 24 MESES",
+            "c. 36 MESES",
+            "d. 6 MESES"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "10.- 10-EL VIENTO ES ORIGINADO POR UNA DIFERENCIA DE PRESIONES QUE TIENDEN A IGUALARSE.",
+        "opciones": [
+            "a. VERDADERO",
+            "b. FALSO."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "11.- AL AUMENTAR LA ALTURA, LA DENSIDAD DEL AIRE DISMINUYE",
+        "opciones": [
+            "a. Verdadero",
+            "b. Falso"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "12.- PARA LA OBTENCIÓN Y REVALIDACIÓN DE LA CREDENCIA SE DEBERÁ APROBAR UN EXAMEN ESCRITO SOBRE LAS SIGUIENTES MATERIAS:",
+        "opciones": [
+            "a. DAN 151, DAN 91, NOTAMS, METEOROLOGÍA Y AERODINÁMICA.",
+            "b. DAN 151, METEOROLOGÍA, AERODINÁMICA Y OPERACIONES AÉREAS.",
+            "c. DAN 151, NOTAMS, METEOROLOGÍA Y OPERACIONES AÉREA.",
+            "d. DAN 151, DAN 91, METEOROLOGÍA, AERODINÁMICA Y OPERACIONES AÉREAS."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "13.- SE DICE QUE EL VIENTO ES CONSTANTE CUANDO:",
+        "opciones": [
+            "a. UNAS VECES LLEVA UN SENTIDO Y EN OTRAS OCASIONES OTRO.",
+            "b. SU ACCIÓN ES CONSTANTE Y EN LA MISMA DIRECCIÓN.",
+            "c. SU ACCIÓN ES CONSTANTE, PERO PUEDE VARIAR SU DIRECCIÓN.",
+            "d. SE DESPLAZA EN UNA SOLA DIRECCIÓN."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "14.- LA DIRECCIÓN DE LA BRISA MARINA POR LA NOCHE ES:",
+        "opciones": [
+            "a. DEL MAR HACIA LA TIERRA.",
+            "b. PARALELO A LA COSTA.",
+            "c. RELATIVA.",
+            "d. DE LA TIERRA HACIA EL MAR."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "15.-EN METAR, LA ABREVIATURA NIL SIGNIFICA:",
+        "opciones": [
+            "a. ESTACIÓN CERRADA.",
+            "b. INSTRUMENTOS FUERA DE SERVICIO.",
+            "c. REPARACIÓN DE INSTALACIONES.",
+            "d. ESTACIÓN AUSENTE O DATOS FALTANTES."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "16.- UN OPERADOR DE RPA PODRÁ OPERAR EN ÁREAS RESTRINGIDAS:",
+        "opciones": [
+            "a. CUANDO LO ESTIME NECESARIO",
+            "b. CUANDO CUENTE CON AUTORIZACIÓN DE LA AUTORIDAD COMPETENTE",
+            "c. A Y B",
+            "d. CUANDO ESTÉ EN UNA SITUACIÓN DE EMERGENCIA"
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "17.- LA NIEBLA SE DISTINGUE DE LA BRUMA POR LA HUMEDAD Y COLOR GRIS.",
+        "opciones": [
+            "a. VERDADERO.",
+            "c. FALSO."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "18.- LA RESISTENCIA INDUCIDA ES:",
+        "opciones": [
+            "a. LA QUE SE PRODUCE DEBIDO A LA SUSTENTACIÓN.",
+            "b. LA QUE PROPORCIONA MAYOR VELOCIDAD.",
+            "c. LA SUMA DE LA GRAVEDAD MÁS LA RESISTENCIA PARÁSITA.",
+            "d. LA QUE SE PRODUCE DEBIDO AL PESO DE LA AERONAVE."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "19.- LA DEFINICIÓN DE NIVEL ACEPTABLE DE SEGURIDAD OPERACIONAL (ALOS)",
+        "opciones": [
+            "a. NIVEL O CRITERIO ESTABLECIDO FUERA DEL INTERVALO NORMAL DE FUNCIONAMIENTO O FUERA DE LA REGIÓN DE CONTROL QUE DISPARA UNA ALERTA INDICANDO LA NECESIDAD DE UNA EVALUACIÓN O UN AJUSTE.",
+            "b. NIVEL MÍNIMO DE RENDIMIENTO EN MATERIA DE SEGURIDAD OPERACIONAL EXPRESADO EN TÉRMINOS DE OBJETIVOS E INDICADORES DE SEGURIDAD OPERACIONES.",
+            "c. RESPONDE AL ANÁLISIS PERMANENTE DE LOS ACONTECIMIENTOS EN DESARROLLO AL INTERIOR DEL PROVEEDOR DE SERVICIOS AERONÁUTICOS.",
+            "d. SON LOS OBJETIVOS DE MEDIANO Y LARGO PLAZO, ESTABLECIDOS EN TÉRMINOS NUMÉRICOS Y QUE SE RELACIONAN CON EL NIVEL ACEPTABLE DE LA SEGURIDAD OPERACIONAL."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "20.- TODA AERONAVE PILOTEADA A DISTANCIA, PREVIO A REALIZAR CUALQUIER OPERACIÓN DE VUELO, DEBERÁ CONTAR CON LA AUTORIZACIÓN:",
+        "opciones": [
+            "a. DEL DEPARTAMENTO AERÓDROMOS Y SERVICIOS AERONÁUTICOS",
+            "b. DE LA JUNTA AERONÁUTICA CIVIL",
+            "c. DE LA DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL",
+            "d. DE LA FUERZA AÉREA DE CHILE"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "21.- LA NIEBLA SE FORMA CUANDO:",
+        "opciones": [
+            "a. EXISTE AIRE HÚMEDO Y GRAN DENSIDAD.",
+            "b. LAS NUBES DESCIENDEN HASTA EL NIVEL DEL SUELO.",
+            "c. EL AIRE SE ENFRÍA POR DEBAJO DE SU PUNTO DE ROCÍO.",
+            "d. LAS NUBES SE ENFRÍAN POR DEBAJO DE SU PUNTO DE ROCÍO"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "22.- CUAL DE LAS SIGUIENTES AFIRMACIONES NO ESTA PROHIBIDA SEGÚN LA DAN 91:",
+        "opciones": [
+            "a. PONER EN RIESGO LA VIDA E INTEGRIDAD DE LAS PERSONAS.",
+            "b. PONER EN RIESGO LA PROPIEDAD PUBLICA O PRIVADA.",
+            "c. OPERAR EN FORMA DESCUIDADA O TEMERARIA, PONIENDO EN RIESGO A OTRAS AERONAVES EN TIERRA O EN EL ESPACIO AÉREO.",
+            "d. OPERAR FUERA DE ÁREAS POBLADAS CON AUTORIZACIÓN DE LA DGAC"
+        ],
+        "respuestas_correctas": []
+    },
+    {
+        "pregunta": "23.- DURANTE LA OPERACIÓN EN VUELO DEL RPAS EL OPERADOR DE RPAS DEBE PERMITIR SALVAR CUALQUIER OBSTÁCULO Y PERSONAS QUE NO ESTEN INVOLUCRADAS EN LA OPERACIÓN, CON UN MARGEN VERTICAL DE ____ MTS Y CON UNA SEPARACIÓN HORIZONTAL DE ____ MTS",
+        "opciones": [
+            "a. 10 Y 20",
+            "b. 20 Y 30",
+            "c. 30 Y 20",
+            "d. 20 Y 10"
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "24.- LA ABREVIATURA BCFG USADA EN CLAVES METEOROLÓGICAS DEL METAR SIGNIFICA:",
+        "opciones": [
+            "a. NIEBLA.",
+            "b. NIEBLA BAJA.",
+            "c. NIEBLA EN LA VECINDAD.",
+            "d. NIEBLA EN BANCOS."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "25.- EL PESO MÁXIMO DE DESPEGUE DE UN RPA DE ACUERDO A LA NORMA DAN 151 DEBE SER DE HASTA:",
+        "opciones": [
+            "a. 6 KILOS",
+            "b. 8 KILOS",
+            "c. 9 KILOS",
+            "d. 7 KILOS"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "26.- PARA QUE LA FORMACIÓN DE NIEBLA SEA PROBABLE, DEBE EXISTIR:",
+        "opciones": [
+            "a. NUBES EN ALTURA Y CORRIENTES DESCENDENTES DE AIRE HÚMEDO.",
+            "b. FUERTE VIENTO Y ALTA HUMEDAD RELATIVA A NIVEL DEL SUELO.",
+            "c. ALTA HUMEDAD, TEMPERATURA Y PUNTO DE ROCÍO PRÓXIMO Y VIENTO EN CALMA.",
+            "d. NUBES EN ALTURA Y FUERTE VIENTO."
+        ],
+        "respuestas_correctas": []
+    },
+    {
+        "pregunta": "27.- EL VIENTO FLUYE DE ZONAS DE BAJA PRESIÓN A ZONAS DE ALTA PRESIÓN.",
+        "opciones": [
+            "a. VERDADERO.",
+            "b. FALSO."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "28.- MENCIONE LAS SANCIONES ESTABLECIDAS EN EL CÓDIGO AERONÁUTICO, ART 185.\n\nI. AMONESTACIÓN ESCRITA.\nII. MULTAS DE 5 A 500 INGRESOS MÍNIMOS.\nIII. SUSPENSIÓN DE PERMISOS Y LICENCIAS HASTA POR 3 AÑOS.\nIV. CANCELACIÓN DEFINITIVA DE PERMISOS O LICENCIAS.",
+        "opciones": [
+            "a. SOLO I, II Y IV",
+            "b. SOLO II Y IV.",
+            "c. SOLO I, II Y III.",
+            "d. I, II, III Y IV."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "29.- QUE SE ENTIENDE POR SEGURIDAD OPERACIONAL?",
+        "opciones": [
+            "a. SEGURIDAD OPERACIONAL ES EL ESTADO EN QUE EL RIESGO DE LESIONES A LAS PERSONAS O DAÑOS A LOS BIENES SE REDUCE Y SE MANTIENE EN UN NIVEL ACEPTABLE, O POR DEBAJO DEL MISMO, POR MEDIO DE UN PROCESO CONTINUO DE IDENTIFICACIÓN DE PELIGROS Y GESTIÓN DE RIESGOS.”",
+            "b. SEGURIDAD OPERACIONAL ES EL ESTADO EN QUE EL RIESGO DE LESIONES A LAS PERSONAS SE AUMENTA Y NO SE MANTIENE EN UN NIVEL ACEPTABLE, QUE SE REALIZA POR MEDIO DE UN PROCESO DISCONTINUO DE IDENTIFICACIÓN DE PELIGROS Y GESTIÓN DE RIESGOS.”",
+            "c. ES UN CONCEPTO QUE SOLO SE OCUPA EN CHILE, RESPECTO A LA SEGURIDAD DE LAS AERONAVES.",
+            "d. PARÁMETRO DE SEGURIDAD BASADO EN DATOS QUE SE UTILIZA PARA OBSERVAR Y EVALUAR EL RENDIMIENTO EN MATERIA DE RIESGO OPERACIONAL."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "30.- EL PLAZO PARA ENVIAR LAS SOLICITUDES DE OPERACIÓN SEGÚN ANEXO D DE LA NORMA DAN 91 Y APÉNDICE A DE LA NORMA DAN 151 ES DE",
+        "opciones": [
+            "a. 10 DÍAS HÁBILES.",
+            "b. 5 DÍAS HÁBILES.",
+            "c. 15 DÍAS HÁBILES.",
+            "d. 7 DÍAS HÁBILES"
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "31.- PARA UN VUELO DE CARÁCTER RECREACIONAL EN ÁREA POBLADA NO SE REQUIERE PERMISO DE LA DGAC",
+        "opciones": [
+            "a. SI LA AERONAVE ES DE POLIETILENO EXPANDIDO Y / O MATERIAL EQUIVALENTE NO IMPORTANDO SU PESO.",
+            "b. SI LA AERONAVE ES DE POLIETILENO EXPANDIDO Y/O MATERIAL EQUIVALENTE SÓLO SI EL PESO MÁXIMO DE LA AERONAVE ES DE 750 GRAMOS",
+            "c. SÓLO SI LA AERONAVE ES DE POLIETILENO EXPANDIDO (PLUMAVIT)",
+            "d. SOLO SI PES MENOS DE 750 GRAMOS"
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "32.- LA DEFINICIÓN DE NOTAM (NOTICE TO AIRMEN) ES: AVISO DISTRIBUIDO POR MEDIO DE TELECOMUNICACIONES QUE CONTIENE INFORMACIÓN RELATIVA AL ESTABLECIMIENTO, CONDICIÓN O MODIFICACIÓN DE CUALQUIER INSTALACIÓN AERONÁUTICA, SERVICIO, PROCEDIMIENTO O PELIGRO, CUYO CONOCIMIENTO OPORTUNO ES ESENCIAL PARA EL PERSONAL ENCARGADO DE LAS OPERACIONES DE VUELO.",
+        "opciones": [
+            "a. VERDADERO",
+            "b. FALSO"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "33.- EL CAMINO SEGUIDO POR UN AERONAVE DURANTE SU DESPLAZAMIENTO POR EL AIRE, SE DENOMINA:",
+        "opciones": [
+            "a. AEROVÍA.",
+            "b. VIENTO RELATIVO.",
+            "c. TRAYECTORIA DE VUELO.",
+            "d. TRAYECTORIA."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "34.-EN PUNTA ARENAS SE INFORMARON LOS SIGUIENTES DATOS: METAR SCCI 160800Z 29014G24KT 9999 FEW013 01/M03 Q0985 NOSIG= ¿CUÁL ES RACHA MÁXIMA DEL VIENTO INFORMADO?",
+        "opciones": [
+            "a. 29 KT.",
+            "b. 24 KT.",
+            "c. 14 KT",
+            "d. 01 KT."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "35.- EL OPERADOR DE UN RPA, PODRÁ TRASPASAR EL CONTROL DE UNA AERONAVE EN VUELO A OTRO PILOTO CON LA AERONAVE EN VUELO SOLO SI ESTÁ COORDINADO Y LAS CONDICIONES METEOROLÓGICAS LO PERMITEN.",
+        "opciones": [
+            "a. Verdadero",
+            "b. Falso"
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "36.- CUAL ES UNO DE LOS REQUISITOS FUNDAMENTALES PARA OPERAR EN ÁREAS POBLADAS SEGÚN LA NORMA DAN 151, PARA MITIGAR LOS RIESGOS DE DAÑOS A PERSONAS E INFRAESTRUCTURA Y DAR CUMPLIMIENTO A LA SEGURIDAD OPERACIONAL:",
+        "opciones": [
+            "a. EL PESO MÁXIMO DEL RPA DEBE SER DE HASTA 19 KG INCLUYENDO ACCESORIOS.",
+            "b. EL RPA DEBE HABER SIDO CONSTRUIDO O ARMADO DESDE DIFERENTES KIT DE DISTINTOS FABRICANTES.",
+            "c. EL RPA DEBE CONTAR CON PARACAÍDAS DE EMERGENCIA DURANTE SU OPERACIÓN.",
+            "d. EL RPA DEBE SER VOLADO SOLO EN FORMA AUTÓNOMA"
+        ],
+        "respuestas_correctas": []
+    },
+    {
+        "pregunta": "37.- NINGUNA AERONAVE PILOTADA A DISTANCIA SE UTILIZARÁ SOBRE EL ______________ DE OTRO ESTADO SIN LA PREVIA ______________ ESPECIAL CONCEDIDA POR EL ESTADO EN EL QUE SE EFECTUARÁ EL VUELO.",
+        "opciones": [
+            "a. DERECHO, CONVALIDACIÓN.",
+            "b. TERRITORIO, CONVALIDACIÓN.",
+            "c. DERECHO, AUTORIZACIÓN.",
+            "d. TERRITORIO, AUTORIZACIÓN."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "38.- SEGÚN LOS SIGUIENTES DATOS DE ANTOFAGASTA: METAR SCFA 141200Z VRB02KT 9999 NSC 12/11 Q1015 NOSIG= LA VISIBILIDAD Y LA NUBOSIDAD REPORTADAS SON RESPECTIVAMENTE:",
+        "opciones": [
+            "a. SUPERIOR A 10 KM Y NO SIGNIFICATIVA.",
+            "b. INFERIOR A 10 KM Y ESCASA.",
+            "c. REDUCIDA Y ABUNDANTE.",
+            "d. 9 KM Y DESPEJADO."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "39.- LA NIEBLA SE FORMA CUANDO:",
+        "opciones": [
+            "a. EXISTE AIRE HÚMEDO Y GRAN DENSIDAD.",
+            "b. LAS NUBES DESCIENDEN HASTA EL NIVEL DEL SUELO.",
+            "c. EL AIRE SE ENFRÍA POR DEBAJO DE SU PUNTO DE ROCÍO.",
+            "d. EL AIRE SE CALIENTA POR ENCIMA DE SU PUNTO DE ROCÍO"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "40.- “ESPACIO AÉREO DE DIMENSIONES DEFINIDAS SOBRE EL TERRITORIO O LAS AGUAS JURISDICCIONALES DE CHILE DENTRO DEL CUAL ESTÁ PROHIBIDO EL VUELO DE AERONAVES POR RAZONES DE SEGURIDAD NACIONAL”. SE DENOMINA:",
+        "opciones": [
+            "a. ZONA RESTRINGIDA",
+            "b. ZONA PELIGROSA",
+            "c. ZONA INSEGURA",
+            "d. ZONA PROHIBIDA"
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "41.- LA AUTORIZACIÓN EMITIDA POR LA DGAC PARA OPERAR EN ÁREAS POBLADAS SEGÚN LA DAN 151 TIENE UNA VALIDEZ DE _____ MESES:",
+        "opciones": [
+            "a. 6",
+            "b. 2",
+            "c. 3",
+            "d. 12"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "42.- LA DIFERENCIA ENTRE NIEBLA Y NEBLINA RADICA EN QUE LA PRIMERA PRESENTA UNA VISIBILIDAD MENOR DE 1000 METROS Y LA SEGUNDA MAYOR DE 1000 METROS.",
+        "opciones": [
+            "a. VERDADERO.",
+            "b. FALSO."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "43.- SEGÚN LA NORMA DAN 151 LOS VUELOS BAJO TECHO CON RPAS SON CONSIDERADOS COMO OPERACIÓN AÉREA",
+        "opciones": [
+            "a. FALSO",
+            "b. Verdadero"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "43.- SE DEFINE COMO RÁFAGA:",
+        "opciones": [
+            "a. EL VALOR DE LA INTENSIDAD DEL VIENTO CUANDO ES CONSTANTE.",
+            "b. LA TURBULENCIA CREADA POR LA INTENSIDAD DEL VIENTO.",
+            "c. LA TURBULENCIA CREADA AL SOTAVENTO DE UNA MONTAÑA.",
+            "d. EL VALOR MÁXIMO DE LA INTENSIDAD DEL VIENTO CUANDO NO ES CONSTANTE."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "44.- LA TEMPERATURA A LA CUAL SE ALCANZA EL PUNTO DE SATURACIÓN DEL VAPOR DE AGUA, SE DENOMINA:",
+        "opciones": [
+            "a. PUNTO DE SATURACIÓN.",
+            "b. PUNTO DE ROCÍO.",
+            "c. TEMPERATURA DE EBULLICIÓN.",
+            "d. TEMPERATURA DE SATURACIÓN."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "45.- LA DEFINICIÓN: “UNA OPERACIÓN DURANTE LA CUAL UNA AERONAVE PILOTADA A DISTANCIA VUELA SIN INTERVENCIÓN DE PILOTO EN LA GESTIÓN DE VUELO”, CORRESPONDE AL CONCEPTO DE:",
+        "opciones": [
+            "a. OPERACIÓN RESTRINGIDA",
+            "b. OPERACIÓN CON VISIBILIDAD DIRECTA VISUAL",
+            "c. OPERACIÓN EN GESTIÓN DE VUELO",
+            "d. OPERACIÓN AUTÓNOMA"
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "46.- EN UN VUELO RECTO Y NIVELADO, SIN ACELERACIÓN O DECELERACIÓN, LAS FUERZAS QUE ESTÁN EQUILIBRADAS SON:",
+        "opciones": [
+            "a. LA SUSTENTACIÓN IGUAL AL EMPUJE.",
+            "b. LA SUSTENTACIÓN DISTINTA AL EMPUJE.",
+            "c. LA SUSTENTACIÓN DISTINTA AL PESO.",
+            "d. LA SUSTENTACIÓN IGUAL AL PESO."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "47.- LA CANCELACIÓN DE UN VUELO RPA YA AUTORIZADO NO DEBERÁ SER COMUNICADO A LA DGAC.",
+        "opciones": [
+            "a. FALSO",
+            "b. VERDADERO"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "48.- ADEMAS DE LOS REQUISITOS TÉCNICOS DE LA NORMA DAN 151 PARA LOS VUELOS EN ZONAS URBANAS SE DEBERÁ CUMPLIR CON LO SIGUIENTE:\n\nI. SÓLO SE PODRÁ VOLAR HASTA 30 METROS MEDIDOS HORIZONTALMENTE DE UNA PERSONA AJENA A AL OPERACIÓN.\nII. SOLO SE PODRÁ OPERAR EN CONDICIONES BVLOS.\nIII. PARA VUELOS ENCIMA DE 120 MTS (400 PIES) SE DEBERÁ OBTENER PREVIAMENTE LA AUTORIZACIÓN DE LA DGAC.",
+        "opciones": [
+            "a. SOLO I Y II",
+            "b. SOLO II Y III",
+            "c. SOLO I Y III",
+            "d. I, II Y III"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "49.- DE ACUERDO AL ART 82 DEL CÓDIGO AERONÁUTICO, QUEDAN PROHIBIDAS TODAS LAS OPERACIONES DE VUELOS Y SOBREVUELOS DE RPAS DE CUALQUIER PESO DE DESPEGUE SOBRE:",
+        "opciones": [
+            "a. ÁREAS DENSAMENTE POBLADAS COMO CENTROS URBANOS O SIMILARES.",
+            "b. INSTALACIONES MILITARES, UNIDADES DE FLOTA Y BASES AÉREAS DE LAS FUERZAS ARMADAS, ADEMÁS DE INSTALACIONES CARCELARIAS E INSTALACIONES ESTRATÉGICAS DEFINIDAS POR EL ESTADO DE CHILE.",
+            "c. SOBRE AGLOMERACIÓN DE PERSONAS AL AIRE LIBRE COMO CONCIERTOS O FESTIVALES.",
+            "d. SOBRE PARQUES NACIONALES Y ÁREAS PROTEGIDAS."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "50.- LA TEMPERATURA DE LA ATMÓSFERA ESTÁNDAR A NIVEL DEL MAR ES DE:",
+        "opciones": [
+            "a. 25ºC.",
+            "b. 15ºC.",
+            "c. 50ºC.",
+            "d. 0° C."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "51.-SI UN CIUDADANO O CIUDADANA SE SIENTE VULNERADO EN SU PRIVACIDAD EN INTIMIDAD POR LA PRESENCIA Y /O SOBREVUELO DE UN RPAS, A QUIENES SE PUEDE RECURRIR PARA DENUNCIAR ESTE HECHO:",
+        "opciones": [
+            "a. SEGURIDAD PÚBLICA DE LA COMUNA CORRESPONDIENTE INSPECTORES MUNICIPALES.",
+            "b. POLICÍA DE INVESTIGACIONES.",
+            "c. CARABINEROS DE CHILE Y LA DENUNCIA AL JUZGADO DE POLICÍA LOCAL",
+            "d. SOLO A LA DGAC"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "52.- METAR DE VALDIVIA SCVD 211400Z 12003KT 4000 VCFG BKN 020 04/03 Q1026 NOSIG, LA DIRECCIÓN E INTENSIDAD DEL VIENTO ES:",
+        "opciones": [
+            "a. 020 GRADOS CON 04 NUDOS",
+            "b. 211 GRADOS CON 40 NUDOS",
+            "c. 120 GRADOS CON 03 NUDOS",
+            "d. 040 GRADOS CON 03 NUDOS"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "53.- SEGÚN LA SIGUIENTE INFORMACIÓN DE CONCEPCIÓN: METAR SCIE 161500Z 02005KT CAVOK 12/07 Q1018= LA ABREVIATURA CAVOK DETERMINA QUE LA VISIBILIDAD, EL TIEMPO PRESENTE Y LAS NUBES SON RESPECTIVAMENTE:",
+        "opciones": [
+            "a. ILIMITADA; SIN PRECIPITACIONES; SIN CB NI NUBES BAJO LA ALTITUD MÍNIMA DEL SECTOR.",
+            "b. SUPERIOR A 5 KM; DESPEJADO; SIN CB.",
+            "c. SUPERIOR A 10 KM; NO HAY CB NI NUBES BAJO 1500 MTS. (5000 PIES)",
+            "d. ILIMITADA Y DESPEJADO."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "54.- SERÁ RESPONSABILIDAD DEL OPERADOR DE UN RPA MANTENER LA SEPARACIÓN CON OTROS RPA OPERANDO EN EL ÁREA Y COORDINADO ENTRE SÍ.",
+        "opciones": [
+            "a. VERDADERO",
+            "b. FALSO"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "55.- SEGÚN LA NORMA DAN 151, CUALE ES LA INFORMACIÓN TÉCNICA QUE DEBE ENTREGAR EL PROPIETARIO DE UN RPA PARA INSCRIBIR LA AERONAVE:\n\nI. FABRICANTE, PAÍS.\nII. MARCA MODELO Y NUMERO DE SERIE.\nIII. COLOR Y TIPO DE MATERIAL DE LA AERONAVE.\nIV. PESO DE FABRICA.",
+        "opciones": [
+            "a. SOLO I Y II",
+            "b. SOLO I, II Y III",
+            "c. SOLO I, II Y IV",
+            "d. I, II, III Y IV"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "56.- DURANTE LA OPERACIÓN DE UNA AERONAVE PILOTADA A DISTANCIA QUEDARÁ PROHIBIDO:\nI. OPERAR EN ZONAS PROHIBIDAS Y PELIGROSAS PUBLICADAS POR LA DGAC.\n\nII. OPERAR MÁS DE UN RPA EN FORMA SIMULTÁNEA.\n\nIII. VIOLAR LOS DERECHOS DE OTRAS PERSONAS EN SU PRIVACIDAD Y SU INTIMIDAD.",
+        "opciones": [
+            "a. SOLO I",
+            "b. SOLO I Y II",
+            "c. SOLO I Y III",
+            "d. I, II Y III."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "57.- CUÁLES SON LOS PASOS A SEGUIR PARA LA OBTENCIÓN DE UN PERMISO DE VUELO CON RPAS SOBRE ÁREA POBLADA QUE EXISTAN CENTROS URBANOS CON ASENTAMIENTOS DE PERSONAS HABITACIONALES Y LABORALES.",
+        "opciones": [
+            "a. SÓLO CON EL PERMISO DEL DUEÑO DEL LUGAR",
+            "b. PERMISO DEL DUEÑO, PROPIETARIO O ADMINISTRADOR DEL LUGAR Y LUEGO INFORMAR AL CENTRO DE CONTROL DE TRANSITO AÉREO",
+            "c. ENVIAR FORMULARIO DE SOLICITUD DE AUTORIZACIÓN DE VUELO, CARTA DEL DUEÑO PROPIETARIO DEL LUGAR, KMZ DEL ÁREA A SOBREVOLAR",
+            "d. ENVIAR FORMULARIO DE SOLICITUD DE AUTORIZACIÓN DE VUELO INDICANDO EL OBJETIVO DEL VUELO EXPLICITANDO EL TRABAJO AÉREO SEGÚN DAN 119 EN CONCORDANCIA A LOS TRABAJOS AUTORIZADOS EN SU AOC, CARTA DEL DUEÑO PROPIETARIO DEL LUGAR, KMZ DEL ÁREA A SOBREVOLAR Y LA DOCUMENTACIÓN DEL REGISTRO DE AERONAVE, CREDENCIAL DE OPERADOR RPAS Y PÓLIZA DE SEGURO O RESOLUCIÓN DE LA JAC."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "58.-QUIÉN ES EL RESPONSABLE DE LA CONDUCCIÓN SEGURA DE LAS OPERACIONES DE ACUERDO CON LA NORMATIVA DAN 151:",
+        "opciones": [
+            "a. EL EXPLOTADOR.",
+            "b. EL DUEÑO DE LA EMPRESA.",
+            "c. LA DGAC.",
+            "d. EL PILOTO A DISTANCIA."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "59.-GRADIENTE VERTICAL DE TEMPERATURA SE DEFINE COMO:",
+        "opciones": [
+            "a. LA VARIACIÓN DE LA TEMPERATURA CON LA ALTURA.",
+            "b. EL CAMBIO DE TEMPERATURA A LO LARGO DEL DÍA.",
+            "c. LA VARIACIÓN DE PRESIÓN CON LA TEMPERATURA.",
+            "d. EL CAMBIO DE LA DIRECCIÓN DEL VIENTO."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "60.- LA BRISA MARINA ESTÁ ORIGINADA POR:",
+        "opciones": [
+            "a. EL OLEAJE DEL MAR.",
+            "b. EL AMANECER Y EL ATARDECER DEL DÍA.",
+            "c. LA MAYOR HUMEDAD DE LA SUPERFICIE DEL MAR.",
+            "d. LA DIFERENCIA TÉRMICA ENTRE EL MAR Y LA TIERRA."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "61.- QUÉ ES NECESARIO PARA QUE SE PRODUZCAN PRECIPITACIONES?",
+        "opciones": [
+            "a. QUE LA TEMPERATURA AMBIENTE SEA ELEVADA.",
+            "b. QUE LA PRESIÓN ATMOSFÉRICA SEA ALTA.",
+            "c. QUE EL AIRE ESTÉ SATURADO.",
+            "d. QUE EL AIRE ESTÉ CONTAMINADO."
+        ],
+        "respuestas_correctas": []
+    },
+    {
+        "pregunta": "62.-SEGÚN LA SIGUIENTE INFORMACIÓN DEL AERÓDROMO DE ATACAMA: METAR SCAT 161500Z 20008KT 180V240 7000 SKC 15/09 Q 1019= LOS DATOS DE VIENTO INFORMADO SON:",
+        "opciones": [
+            "a. 230 GRADOS CON 3 NUDOS Y ARRACHADO.",
+            "b. CALMA, CAMBIANDO A VARIABLE.",
+            "c. 200 GRADOS CON 8 NUDOS, FLUCTUANDO ENTRE LOS 180 GRADOS Y LOS 240 GRADOS.",
+            "d. 200 GRADOS CON 3 NUDOS Y VARIABLE."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "63.- UN RPA ES LA AERONAVE DEL SISTEMA",
+        "opciones": [
+            "a. VERDADERO",
+            "b. FALSO"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "64.- EL MOVIMIENTO ALREDEDOR DEL EJE LATERAL, SE DENOMINA:",
+        "opciones": [
+            "a. ALABEO.",
+            "b. CABECEO.",
+            "c. PÉRDIDA.",
+            "d. GANANCIA."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "65.- LA TURBULENCIA TÉRMICA ESTÁ ASOCIADA A UN FENÓMENO CONVECTIVO.",
+        "opciones": [
+            "a. VERDADERO.",
+            "b. FALSO."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "66.- LA CAPA DE LA ATMÓSFERA EN LA CUAL SE DESARROLLAN LAS ACTIVIDADES DE LOS RPAS, SE DENOMINA:",
+        "opciones": [
+            "a. ESTRATOSFERA.",
+            "b. TROPOSFERA.",
+            "c. TROPOPAUSA.",
+            "d. EXOSFERA"
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "67.- NO SE PODRÁ OPERAR UN RPA A:",
+        "opciones": [
+            "a. MENOS DE 2,5 KM DE LA LÍNEA DEL EJE DE LA PISTA Y A 2 KM PARALELO AL EJE DE LA PISTA DE UN AERÓDROMO.",
+            "b. MENOS DE 1 KM DE LA LÍNEA DEL EJE DE LA PISTA Y A 500 M PARALELO AL EJE DE LA PISTA DE UN AERÓDROMO.",
+            "c. MENOS DE 1,5 KM DE LA LÍNEA DEL EJE DE LA PISTA Y A 1 KM PARALELO AL EJE DE LA PISTA DE UN AERÓDROMO.",
+            "d. A MENOS DE 2 KILÓMETROS DE LA PROLONGACIÓN DEL EJE DE LA PISTA, MEDIDOS DESDE EL UMBRAL Y A UNA DISTANCIA MENOR DE 1 KILÓMETRO PARALELO AL EJE DE LA PISTA DE UN AERÓDROMO"
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "68.- PREVIO AL INICIO DE UN VUELO SERÁ RESPONSABILIDAD DEL OPERADOR DE UN RPA DETERMINAR SI LA AERONAVE Y SU SISTEMA DE CONTROL SE ENCUENTRAN EN CONDICIONES SEGURA PARA OPERAR.",
+        "opciones": [
+            "a. Verdadero",
+            "b. Falso"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "69.- LA SUSTENTACIÓN ES:",
+        "opciones": [
+            "a. LA FUERZA HACIA ARRIBA PERPENDICULAR AL VIENTO RELATIVO Y DESARROLLADA PARA SOPORTAR EL PESO DE LA AERONAVE.",
+            "b. LA FUERZA AERODINÁMICA, MÁS LA RESISTENCIA PARÁSITA.",
+            "c. LA FUERZA PERPENDICULAR AL VIENTO RELATIVO Y DESARROLLADA PARA REALIZAR LA TRACCIÓN DE LA AERONAVE.",
+            "d. LA FUERZA AERODINÁMICA QUE SOPORTA EL PESO DE LA AERONAVE."
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "70.- LA FUERZA EN DIRECCIÓN PERPENDICULAR HACIA LA SUPERFICIE DE LA TIERRA SE DENOMINA: Borrar la selección",
+        "opciones": [
+            "a. EMPUJE O TRACCIÓN.",
+            "b. SUSTENTACIÓN.",
+            "c. PESO O GRAVEDAD.",
+            "d. RESISTENCIA."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "71.- ZONA PELIGROSA (D) ES:",
+        "opciones": [
+            "a. ESPACIO AÉREO DE DIMENSIONES DEFINIDAS SOBRE EL TERRITORIO O LAS AGUAS JURISDICCIONALES DE CHILE, DENTRO DEL CUAL ESTÁ PROHIBIDO EL VUELO DE AERONAVES POR RAZONES DE SEGURIDAD NACIONAL.",
+            "b. ESPACIO AÉREO DE DIMENSIONES DEFINIDAS EN EL CUAL PUEDEN DESPLEGARSE EN DETERMINADOS MOMENTOS ACTIVIDADES PELIGROSAS PARA EL VUELO DE LAS AERONAVES.",
+            "c. ESPACIO AÉREO DE DIMENSIONES DEFINIDAS SOBRE EL TERRITORIO O LAS AGUAS JURISDICCIONALES DE CHILE, DENTRO DEL CUAL ESTÁ RESTRINGIDO EL VUELO DE LAS AERONAVES DE ACUERDO CON DETERMINADAS CONDICIONES ESPECIFICADAS.",
+            "d. NINGUNA DE LAS ANTERIORES."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "78.- LA DEFINICIÓN DE “AERONAVE PILOTADA A DISTANCIA” ES: AERONAVE QUE NO LLEVA A BORDO UN PILOTO A LOS MANDOS.",
+        "opciones": [
+            "a. FALSO",
+            "b. VERDADERO"
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "79.- EL PILOTO A DISTANCIA DEBERÁ CEDER EL PASO A CUALQUIER AERONAVE TRIPULADA EN LAS DIFERENTES FASES DEL VUELO, ASÍ COMO MANTENER SU PROPIA SEPARACIÓN CON OTRAS AERONAVES.",
+        "opciones": [
+            "a. VERDADERO",
+            "b. FALSO"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "80.- PARA LA CORRECTA PLANIFICACIÓN DE UN VUELO DE RPAS, EL OPERADOR ENTRE OTRAS CONDICIONES DEBERÁ:\n\nI. VERIFICAR PLATAFORMA IFIS , EN LO PARTICULAR SI EXISTEN NOTAMSVIGENTES EN LA ZONA A SOBREVOLAR\n\nII. VERIFICAR LAS CONDICIONES METEOROLÓGICAS A TRAVÉS DE METAR\n\nIII. VERIFICAR LOS AERÓDROMOS PÚBLICOS Y PRIVADOS CERCANOS ALA ZONA DE VUELO LOS CUALES DEBEN SER INFORMADOS EN LA SOLICITUD DE VUELO LO ANTERIOR EN FUNCIÓN DE LA MITIGACIÓN DE RIESGOS OPERACIONALES\n\nIV. AVISAR A LA MUNICIPALIDAD DEL ÁREA A OPERAR",
+        "opciones": [
+            "a. SOLO I Y IV.",
+            "b. SOLO I, II y IV",
+            "c. SOLO I, II Y III.",
+            "d. I, II, III Y IV."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "81.- LOS RPA SÓLO SE PODRÁN OPERAR EN LÍNEA VISTA (VLOS)",
+        "opciones": [
+            "a. VERDADERO",
+            "b. FALSO"
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "82.- VIENTO RELATIVO ES:",
+        "opciones": [
+            "a. EL FORMADO POR LA HÉLICE AL PASAR POR EL PERFIL ALAR.",
+            "b. LA CORRIENTE DE AIRE QUE SIGUE A LA AERONAVE EN SU TRAYECTORIA.",
+            "c. LA CORRIENTE O FLUJO DE AIRE MOVIÉNDOSE HACIA EL PERFIL, SIENDO OPUESTO A LA TRAYECTORIA DE VUELO.",
+            "d. EL FORMADO POR EL ASPA AL PASAR POR EL PERFIL ALAR."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "83.- LA FUERZA AERODINÁMICA ES:",
+        "opciones": [
+            "a. LA FUERZA PARALELA AL VIENTO RELATIVO.",
+            "b. LA FUERZA RESULTANTE DE LA SUSTENTACIÓN Y LA RESISTENCIA INDUCIDA.",
+            "c. LA FUERZA RESULTANTE DE LA FUERZA CENTRÍFUGA Y EL PESO.",
+            "d. LA FUERZA RESULTANTE DE LA SUSTENTACIÓN Y EL PESO DE LA AERONAVE."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "84.- 20- LA CREDENCIAL DE RPA PERMITE AL PORTADOR:",
+        "opciones": [
+            "a. DESEMPEÑARSE COMO OPERADOR DE RPAS SOLO EN CONDICIONES(VLOS)",
+            "b. DESEMPEÑARSE COMO OPERADOR DE RPAS EN CONDICIÓN (BVLOS)",
+            "c. DESEMPEÑARSE COMO OPERADOR DE RPAS EN CUALQUIER CONDICIÓN",
+            "d. A Y B"
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "85.- EN CUANTO A LAS RESPONSABILIDADES DEL OPERADOR DE UN RPAS, EL CÓDIGO PENAL EN SU ARTÍCULO 161-A, ESTABLECE QUE SE CASTIGARÁ CON _________________________________________AL QUE, EN RECINTOS PARTICULARES O LUGARES QUE NO SEAN DE LIBRE ACCESO AL PÚBLICO, SIN AUTORIZACIÓN DEL AFECTADO Y POR CUALQUIER MEDIO, CAPTE, INTERCEPTE, GRABE O REPRODUZCA CONVERSACIONES O COMUNICACIONES DE CARÁCTER PRIVADO; SUSTRAIGA, FOTOGRAFIÉ, FOTOCOPIE O REPRODUZCA DOCUMENTOS O INSTRUMENTOS DE CARÁCTER PRIVADO; O CAPTE, GRABE, FILME O FOTOGRAFIÉ IMÁGENES O HECHOS DE CARÁCTER PRIVADO QUE SE PRODUZCAN, REALICEN, OCURRAN O EXISTAN EN RECINTOS PARTICULARES O LUGARES QUE NO SEAN DE LIBRE ACCESO AL PÚBLICO.",
+        "opciones": [
+            "a. CON PRESIDIO MENOR.",
+            "b. SÓLO UNA MULTA, DEPENDIENDO DE LA INFRACCIÓN.",
+            "c. CON LA PENA DE RECLUSIÓN MENOR EN CUALQUIERA DE SUS GRADOS Y MULTA DE 50 A 500 UNIDADES TRIBUTARIAS MENSUALES",
+            "d. UNA MULTA DETERMINADA POR LA SECCIÓN INFRACCIONAL DE LA DGAC"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "86.- LA ALTURA MÁXIMA DE OPERACIÓN DE UN RPA SEGÚN LA DAN 151 ES:",
+        "opciones": [
+            "a. 400 PIES",
+            "b. 400 MTS",
+            "c. 450 PIES",
+            "d. 120 PIES"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "87.- LA NUBE MÁS PELIGROSA PARA DESARROLLAR EL VUELO ES:",
+        "opciones": [
+            "a. Ns.",
+            "b. Cb.",
+            "c. Sc.",
+            "d. Ci."
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "88.- SEGÚN LA NORMA DAN 151 UN PILOTO A DISTANCIA DURANTE LA OPERACIÓN DE UN RPA PODRÁ:",
+        "opciones": [
+            "a. OPERAR EN ZONAS PROHIBIDAS Y ZONAS PELIGROSAS PUBLICADAS POR LA DGAC.",
+            "b. OPERAR EN ZONAS RESTRINGIDAS, SIN AUTORIZACIÓN DE LA DGAC.",
+            "c. OPERAR EN LA NOCHE CON UNA AUTORIZACIÓN ESPECIAL DE LA DGAC.",
+            "d. OPERAR SIN TOMAR CONOCIMIENTO DE LOS NOTAMS VIGENTES PUBLICADOS POR LA DGAC."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "89.- EN QUE CONDICIONES SE EXCEPTÚAN EL CONTROL MANUAL DEL RPA SEGÚN LA NORMA DAN 151:\n\nI. OPERACIONES ESPECIALES CON FINES FOTOGRAMÉTRICOS.\n\nII. OPERACIONES DE VIGILANCIA AÉREA NOCTURNA.\n\nIII. ASPERSIÓN AGRÍCOLA.\n\nIV. OPERACIONES CON SENSORES LIDAR O SIMILARES.",
+        "opciones": [
+            "a. SOLO II Y IV",
+            "b. SOLO I, II Y IV",
+            "c. SOLO I, III, IV",
+            "d. I, II, III Y IV"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "90.- SEGÚN LA NORMA DAN 151, TODO PROPIETARIO QUE DESEE OPERAR DE ACUERDO CON ESTA NORMA DEBERÁ INSCRIBIR LA AERONAVE EN LA DGAC, EN EL REGISTRO ESPECIAL DE RPA ANTES DE INICIAR LAS OPERACIONES.",
+        "opciones": [
+            "a. Falso",
+            "b. Verdadero"
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "91.-EN EL CONTEXTO DE UN VUELO DE RPAS EN UNA ÁREA PREVIAMENTE AUTORIZADA POR LA DGAC PARA DICHO VUELO, Y TRAS EL RECLAMO DE UN PARTICULAR POR EL SOBREVUELO DE ESA AERONAVE, EL ARTÍCULO 81 DEL CÓDIGO AERONÁUTICO ESTABLECE: “NINGUNA PERSONA PODRÁ OPONERSE AL SOBREVUELO DE UNA AERONAVE EN RAZÓN DE SUS DERECHOS SOBRE EL SUELO.”",
+        "opciones": [
+            "a. VERDADERO",
+            "b. FALSO"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "92.-EL ÁNGULO DE ATAQUE ES:",
+        "opciones": [
+            "a. EL ÁNGULO FORMADO ENTRE LA CUERDA AERODINÁMICA Y LA DIRECCIÓN DEL VIENTO RELATIVO.",
+            "b. EL ÁNGULO CON EL CUAL SUBE MÁS DEPRISA EL AVIÓN.",
+            "c. EL ÁNGULO FORMADO ENTRE EL HORIZONTE Y EL VIENTO RELATIVO.",
+            "d. EL ANGULO FORMADO ENTRE EL BORDE DE FUGA Y EL VIENTO RELATIVO"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "93.- TRAS UN RECLAMO DE UN CIUDADANO O CIUDADANA, BAJO QUÉ CIRCUNSTANCIA SE PODRÍA REQUISAR EL RPA AL OPERADOR.",
+        "opciones": [
+            "a. SI LA DGAC LO ESTIMA CONVENIENTE A TRAVÉS DE SU DEPARTAMENTO JURÍDICO.",
+            "b. SI LO SORPRENDE CARABINEROS.",
+            "c. SÓLO TRAS LA AUTORIZACIÓN DEL FISCAL O LA FISCAL AL FUNCIONARIO POLICIAL, SÓLO SI ESTAMOS ANTE LA PRESENCIA DE UN HECHO QUE PUDIESE SER CONSTITUTIVO DE DELITO.",
+            "d. SOLO POR UN INSPECTOR DE LA DGAC."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "94.- TODA PERSONA QUE SE ENCUENTRE OPERANDO UN RPA DEBERÁ PORTAR:",
+        "opciones": [
+            "a. REGISTRO DEL RPA, PÓLIZA DE SEGURO O RESOLUCIÓN DE LA JAC, AUTORIZACIÓN DE LA DGAC, CERTIFICADO AOC O CEO Y LAS RESPECTIVA EEOO (ESPECIFICACIÓN DE LAS OPERACIONES).",
+            "b. SOLO LA AUTORIZACIÓN DE OPERACIÓN DE RPAS OTORGADA POR LA DGAC.",
+            "c. REGISTRO DEL RPA, CREDENCIAL DE OPERADOR RPAS, PÓLIZA DE SEGURO O RESOLUCIÓN DE LA JAC, AUTORIZACIÓN DE LA DGAC,CERTIFICADO AOC O CEO Y LAS RESPECTIVA EEOO (ESPECIFICACIÓN DE LAS OPERACIONES)",
+            "d. REGISTRO DEL RPA, CREDENCIAL DE OPERADOR RPAS,AUTORIZACIÓN DE LA DGAC, CERTIFICADO AOC O CEO Y LAS RESPECTIVA EEOO (ESPECIFICACIÓN DE LAS OPERACIONES)."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "95.- LA DAN 151 AUTORIZA LAS OPERACIONES CON RPAS SOBRE ÁREAS POBLADAS, YA SEA EN ÁMBITOS DE ASUNTOS DE INTERÉS PÚBLICO O TRABAJOS AÉREOS.",
+        "opciones": [
+            "a. VERDADERO",
+            "b. FALSO"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "96.- UN RPA DEBE OPERAR EN CONDICIONES METEOROLÓGICAS DE VUELO VISUAL (VMC), EN CONTACTO VISUAL DIRECTO PERMANENTE CON EL RPA (VLOS) Y SER CONTROLADO EN FORMA MANUAL POR EL OPERADOR EN TODAS LAS ETAPAS DEL VUELO.",
+        "opciones": [
+            "a. VERDADERO",
+            "b. FALSO"
+        ],
+        "respuestas_correctas": [
+            "a"
+        ]
+    },
+    {
+        "pregunta": "97.- EL METAR DE VALDIVIA REGISTRA: METAR SCVD 211400Z 12003KT 4000 VCFG BKN020 04/03 Q1026= LA VISIBILIDAD ESTÁ RESTRINGIDA POR:",
+        "opciones": [
+            "a. NIEBLA.",
+            "b. NIEBLA BAJA.",
+            "c. NIEBLA EN LA VECINDAD.",
+            "d. NIEBLA EN BANCOS."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "98.- LA DEFINICIÓN DE “ÁREAS POBLADAS” ES:",
+        "opciones": [
+            "a. ZONAS DESTINADAS PARA ESPECTÁCULOS DE CONGREGACIÓN MASIVA DE PERSONAS.",
+            "b. ZONAS EN LAS QUE SE DESARROLLEN ACTIVIDADES QUE CONVOQUEN LA AGLOMERACIÓN DE PERSONAS AL AIRE LIBRE.",
+            "c. TERRENOS DESTINADOS PARA SER HABITADOS POR POBLACIONES HUMANAS.",
+            "d. ZONAS EN LAS QUE EXISTAN CENTROS URBANOS O SE DESARROLLEN ACTIVIDADES QUE CONVOQUEN AGLOMERACIÓN DE PERSONAS AL AIRE LIBRE."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "99.- SEGÚN LA NORMA DAN 151 UNO DE LOS REQUISITOS PARA LA OBTENCIÓN DE LA CREDENCIAL DE OPERADOR DE RPAS ES:",
+        "opciones": [
+            "a. TENER MENOS DE 18 AÑOS.",
+            "b. APROBAR EL EXAMEN ESCRITO SOLO DE MATERIAS DE LA NORMATIVA AERONÁUTICA.",
+            "c. PRESENTAR UNA DECLARACIÓN JURADA SIMPLE FIRMADA MANUALMENTE QUE INCLUYA HUELLA DIGITAL DE LA PERSONA QUE SUSCRIBE DE HABER RECIBIDO INSTRUCCIÓN TEÓRICA Y PRÁCTICA DE ACUERDO AL FORMULARIO DEL APÉNDICE C DE LA NORMA, ACOMPAÑADO DEL RESPECTIVO CERTIFICADO DE LA EMPRESA QUE IMPARTIÓ LA INSTRUCCIÓN.",
+            "d. OBTENER UNA CALIFICACIÓN MÍNIMA DE APROBACIÓN DE LOS EXÁMENES DE 70%."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "100.- EN CASO DE INCUMPLIMIENTO DE LA NORMATIVA AERONÁUTICA DARA MOTIVO PARA QUE LA DGAC APLIQUE LO ESTABLECIDO EN EL SIGUIENTE REGLAMENTO DEL PROCEDIMIENTO INFRACCIONAL AERONÁUTICO:",
+        "opciones": [
+            "a. DAR 13",
+            "b. DAR 06",
+            "c. DAR 51",
+            "d. DAR 61"
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    },
+    {
+        "pregunta": "101.- METAR DE VALDIVIA SCVD 211400Z 12003KT 0500 VCFG BKN 020 04/03 Q1026 NOSIG, LA VISIBILIDAD ES DE:",
+        "opciones": [
+            "a. 1400 METROS",
+            "b. 500 METROS",
+            "c. 0.5 MN",
+            "d. NINGUNA DE LAS ANTERIORES"
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "102.- LAS CAUSAS PRINCIPALES QUE ORIGINAN LAS TURBULENCIAS SON:",
+        "opciones": [
+            "a. CORRIENTES CONVECTIVAS.",
+            "b. OBSTRUCCIONES AL FLUJO DEL VIENTO.",
+            "c. CORTANTE DEL VIENTO.",
+            "d. TODAS LAS ANTERIORES"
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "103.- UN VUELO DE CARÁCTER RECREACIONAL LO PODEMOS EJECUTAR EN:",
+        "opciones": [
+            "a. EN LA VÍA PÚBLICA CON CUALQUIER RPA Y SIN AUTORIZACIÓN DE LA DGAC.",
+            "b. EN LA VÍA PÚBLICA CON PERMISO DE LA DGAC Y CON CUALQUIER MODELO DE RPA.",
+            "c. EN ZONA NO POBLADA, CON LA AUTORIZACIÓN FORMAL DE LA DGAC HASTA 400 PIES.",
+            "d. EN LUGAR PRIVADO Y SIEMPRE QUE NO OPERE A MAS DE 50 METROS DE ALTURA Y CON UN PESO INFERIOR A 750 GRS."
+        ],
+        "respuestas_correctas": [
+            "d"
+        ]
+    },
+    {
+        "pregunta": "104.- “___ES LA OPERACIÓN EN LA CUAL LA TRIPULACIÓN REMOTA MANTIENE CONTACTO VISUAL DIRECTO CON LA AERONAVE PARA DIRIGIR SU VUELO Y SATISFACER LAS RESPONSABILIDADES DE SEPARACIÓN Y ANTICOLISIÓN”.",
+        "opciones": [
+            "a. OPERACIÓN DE VUELO",
+            "b. OPERACIÓN CON VISIBILIDAD DIRECTA VISUAL (VLOS)",
+            "c. OPERACION MAS ALLA DE LA VISIBILIDAD DIRECTA VISUAL (BVLOS)",
+            "d. OPERACIÓN VISUAL"
+        ],
+        "respuestas_correctas": [
+            "b"
+        ]
+    },
+    {
+        "pregunta": "105.- LA TURBULENCIA MECÁNICA SE CREA:",
+        "opciones": [
+            "a. POR LAS TÉRMICAS DE CALOR.",
+            "b. POR LAS RÁFAGAS DE VIENTO.",
+            "c. POR EL ROZAMIENTO DEL AIRE CON LA SUPERFICIE.",
+            "d. POR LA RELACIÓN ENTRE RÁFAGAS DE VIENTO Y TÉRMICAS DE CALOR."
+        ],
+        "respuestas_correctas": [
+            "c"
+        ]
+    }
+]
