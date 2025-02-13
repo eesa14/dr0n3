@@ -1,12 +1,16 @@
 {
-  "name": "Examen de Preguntas",
+  "name": "Examen AWS",
   "short_name": "Examen",
-  "description": "Aplicación para responder cuestionarios",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2196f3",
   "icons": [
+    {
+      "src": "favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
     {
       "src": "android-icon-192x192.png",
       "sizes": "192x192",
@@ -15,11 +19,6 @@
     {
       "src": "apple-icon-180x180.png",
       "sizes": "180x180",
-      "type": "image/png"
-    },
-    {
-      "src": "favicon-32x32.png",
-      "sizes": "32x32",
       "type": "image/png"
     }
   ]

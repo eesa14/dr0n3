@@ -1,13 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
     let preguntas = [];
     let paginaActual = 0;
-    const preguntasPorPagina = 25;
+    const preguntasPorPagina = 50;
+    let puntaje = 0;
+    const contenedorPreguntas = document.getElementById("contenedor-preguntas");
 
     async function cargarPreguntas() {
         try {
             const respuesta = await fetch("preguntas_con_imagenes.json");
-            const data = await respuesta.json();
-            preguntas = data.filter(p => p.pregunta && p.opciones.length > 0);
+            preguntas = await respuesta.json();
+
+            if (!Array.isArray(preguntas) || preguntas.length === 0) {
+                console.error("El archivo JSON no tiene preguntas válidas.");
+                return;
+            }
+
             mostrarPagina(paginaActual);
         } catch (error) {
             console.error("Error cargando las preguntas:", error);
@@ -15,39 +22,38 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function mostrarPagina(pagina) {
-        const contenedor = document.getElementById("contenedor-preguntas");
-        contenedor.innerHTML = "";
-
+        contenedorPreguntas.innerHTML = "";
         const inicio = pagina * preguntasPorPagina;
         const fin = Math.min(inicio + preguntasPorPagina, preguntas.length);
         const preguntasPagina = preguntas.slice(inicio, fin);
 
         preguntasPagina.forEach((pregunta, index) => {
-            if (!pregunta.pregunta || pregunta.opciones.length === 0) return;
+            if (!pregunta.pregunta || !Array.isArray(pregunta.opciones) || pregunta.opciones.length === 0) return;
 
             const divPregunta = document.createElement("div");
             divPregunta.classList.add("pregunta");
-            divPregunta.setAttribute("data-index", inicio + index);
 
             const esMultiple = Array.isArray(pregunta.respuestas_correctas) && pregunta.respuestas_correctas.length > 1;
-            const opcionesHtml = pregunta.opciones.map((opcion, i) => {
+            let opcionesHtml = "";
+
+            pregunta.opciones.forEach((opcion, i) => {
                 const letra = opcion.split(".")[0].trim().toLowerCase();
-                return `
+                opcionesHtml += `
                     <label>
                         <input type="${esMultiple ? "checkbox" : "radio"}" name="pregunta-${inicio + index}" value="${letra}">
                         ${opcion}
                     </label><br>
                 `;
-            }).join("");
+            });
 
             divPregunta.innerHTML = `
-                <p><strong>${inicio + index + 1}. ${pregunta.pregunta}</strong></p>
+                <p><strong>${inicio + index + 1}. ${pregunta.pregunta.replace(/^\d+\.\s*/, "")}</strong></p>
                 ${opcionesHtml}
                 <button onclick="verificarRespuesta(${inicio + index})">Comprobar</button>
                 <p id="resultado-${inicio + index}" class="resultado"></p>
             `;
 
-            contenedor.appendChild(divPregunta);
+            contenedorPreguntas.appendChild(divPregunta);
         });
 
         document.getElementById("pagina-info").innerText = `Página ${pagina + 1} de ${Math.ceil(preguntas.length / preguntasPorPagina)}`;
@@ -66,14 +72,21 @@ document.addEventListener("DOMContentLoaded", function () {
         if (arraysIguales(seleccionadas, correctas)) {
             resultado.innerText = "¡Correcto!";
             resultado.className = "respuesta-correcta";
+            puntaje += 1;
         } else {
             resultado.innerText = "Incorrecto.";
             resultado.className = "respuesta-incorrecta";
         }
+
+        actualizarPuntaje();
     };
 
     function arraysIguales(arr1, arr2) {
         return arr1.length === arr2.length && arr1.sort().join(",") === arr2.sort().join(",");
+    }
+
+    function actualizarPuntaje() {
+        document.getElementById("puntaje").innerText = `Puntaje: ${puntaje}`;
     }
 
     document.getElementById("anterior").addEventListener("click", () => {
@@ -91,4 +104,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     cargarPreguntas();
+
+    const puntajeDiv = document.createElement("div");
+    puntajeDiv.id = "puntaje";
+    puntajeDiv.style.fontSize = "18px";
+    puntajeDiv.style.marginTop = "20px";
+    puntajeDiv.innerText = "Puntaje: 0";
+    document.body.appendChild(puntajeDiv);
 });
